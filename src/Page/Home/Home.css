@@ -1,0 +1,126 @@
+/* .home h1{
+    color: white;
+}
+.home{
+    display: flex;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.home button{
+    color: white;
+    background: blue;
+    width: 120px;
+    height: 40px;
+    font-size: 18px;
+    margin-left: 40px;
+    border: 10px;
+    border-radius: 15px;
+} */
+/* .Home_wrapper {
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  padding: 1rem;
+  background-color: #f0f0f0;
+}
+
+.home {
+  display: flex;
+  gap: 1rem;
+}
+
+.home p {
+  margin: 0;
+  cursor: pointer;
+  color:black
+}
+
+.home button {
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.home_text-container {
+  padding: 2rem;
+
+}
+
+.home_question-part button {
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.home_question h4 {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  color: white;
+}
+
+.home_question h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 1rem;
+    color: white;
+}
+
+.text-3 {
+  margin-top: 1rem;
+   
+}
+
+.text-4 a {
+  text-decoration: none;
+  color:white;
+}
+
+.all_question {
+  margin-top: 1rem;
+
+} */
+
+.home {
+  width: 70vw;
+  /* height: 70vh; */
+  margin-left: auto;
+  margin-right: auto;
+}
+.home__top {
+  display: flex;
+  justify-content: space-between;
+  height: 25px;
+  padding: 20px 0;
+}
+.home__top h6 {
+  margin-top: 7px;
+}
+.home_topBtn {
+  background-color: #415ce4;
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  padding: 0px 25px;
+}
+.home__question {
+  margin-top: 8px;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(191, 191, 191);
+}
+.home__questionListsBottom {
+  padding-bottom: 49vh;
+}
+
+.MdArrowForwardIos {
+  position: relative;
+  left: 94%;
+  top: -50px;
+  padding: 0;
+}
