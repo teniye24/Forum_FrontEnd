@@ -23,7 +23,7 @@ function Answer(props) {
   // console.log("Location data", question);
 
   const handleChange = (e) => {
-    console.log(e.target.value);
+    // console.log(e.target.value);
     setAnswer({
       answer: e.target.value,
       question_id: question.question_id,
@@ -35,8 +35,8 @@ function Answer(props) {
     try {
       console.log(answer);
 
-      const answerRes = await axios.post(
-        "http://localhost:4001/api/answer/create",
+       await axios.post(
+        `$(process.env.REACT_APP_base_url)/api/answer/create`,
         {
           answer: answer.answer,
           question_id: questionId,
@@ -60,7 +60,7 @@ function Answer(props) {
     // setAskedQuestion(question);
     const fetchAnswers = async () => {
       const answers = await axios.get(
-        `http://localhost:4001/api/answer`
+        `$(process.env.REACT_APP_base_url)/api/answer`
       );
       console.log(answers.data);
       console.log(answers.data.data);

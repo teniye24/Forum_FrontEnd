@@ -23,7 +23,7 @@ function Question() {
  
     try {
       //sending data to be registered in database
-      await axios.post("http://localhost:4001/api/questions/create", {
+      await axios.post(`$(process.env.REACT_APP_base_url)/api/questions/create`, {
         question: form.question,
         question_description: form.questionDescription,
         user_id: userData.user.id,
