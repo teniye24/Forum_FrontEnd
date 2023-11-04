@@ -46,7 +46,7 @@ function App() {
     });
 
     //resetting localStorage
-    localStorage.setItem("auth-token", "");
+    localStorage.setItem("auth-token", "")
   };
 
   useEffect(() => {
