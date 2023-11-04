@@ -33,7 +33,7 @@ function Answer(props) {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      console.log(answer);
+      console.log(answer)
 
        await axios.post(
         `$(process.env.REACT_APP_base_url)/api/answer/create`,
